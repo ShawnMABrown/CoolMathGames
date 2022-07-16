@@ -1,0 +1,69 @@
+
+.game-viewer{
+    width: 1400px;
+    height: 845px;
+    background-color: rgb(37, 37, 37);
+    display: inline-block;
+    border-radius: 10px;
+}
+    .game-container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        margin: 50px;
+        margin-bottom: 10px;
+        height: 450px;
+        border-radius: 10px;
+        background-color: rgb(48, 48, 48);
+    }
+    #cur-score,
+    #player-highscore{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        color: white;
+    }
+    #player-highscore{
+        margin-left: -54px;
+    }
+    .games{
+        display: flex;
+        justify-content: space-evenly;
+        height: 280px;
+        margin-left: 50px;
+        margin-right: 50px;
+        border-radius: 10px;
+        background-color: rgb(48, 48, 48);
+    }
+        .game-thumbnail{
+            margin-top: 10px;
+            margin-left: 81px;
+            border-radius: 10px;
+        }    
+        .game-title{
+            margin-top: 5px;
+            text-align: center;
+            color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+        .flappyBird,
+        .addEmUp,
+        .game3{
+            margin: 20px;
+            height: 240px;
+            vertical-align: top;
+            width: 350px;
+            border-radius: 10px;
+            display: inline-block;
+            background-color: rgb(37, 37, 37);
+        }
+        .games a{
+            color: white;
+            font-weight: 300;
+        }
+        .games a:hover{ text-decoration: none; }  
+        .games a:visited{ text-decoration: none; }  
+        .games a:link{ text-decoration: none; }  
+        .games a:active{ text-decoration: none; }  
+

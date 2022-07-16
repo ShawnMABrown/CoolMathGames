@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.sidebar-nav{
+    width: 100px;
+    height: 845px;
+    background-color: rgb(37, 37, 37);
+    display: inline-block;
+    border-radius: 10px;
+    vertical-align: top;
+}
+.sidebar-nav img{
+    width: 50px;
+    mix-blend-mode: multiply;
+}
+.sidebar-nav img:hover{
+    opacity: 0.7;
+}
+.sidebar-nav img:active{
+    opacity: 0.3;
+}
+    .sidebar-nav .profile-btn{
+        margin-bottom: 110px;
+    }
+    .sidebar-nav div{
+        margin: 25px;
+        margin-bottom: 60px;
+        width: 50%;
+        height: 50px;
+        border-radius: 5px;
+        background-color: rgb(48, 48, 48);
+    }
+    

@@ -1,0 +1,48 @@
+.game-top-5{
+    width: 300px;
+    height: 845px;
+    background-color: rgb(37, 37, 37);
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+}
+    .top-5-title{
+        display: inline-block;
+        margin: 43px;
+        margin-top: 10px;
+        padding: 10px;
+        font-family: Arial;
+        font-size: 40px;
+        border-radius: 10px;
+        background-color: rgb(48, 48, 48);
+    }
+    .top-5-scores{
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        margin: 10px;
+    }
+    .placement-icon img{
+        height: 100px;
+        width: 100px;
+    }
+    .placement-icon{
+        height: 100px;
+        font-family: Arial;
+        border-radius: 10px;
+        background-color: rgb(48, 48, 48);
+    }
+    .placement-info{
+        font-family: Arial;
+        border-radius: 10px;
+        background-color: rgb(48, 48, 48);
+        padding: 20px;
+    }
+    .placement-info .player{
+        color: white;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+    .placement-info .score{
+        font-weight: 700;
+        color: rgba(136, 111, 57);
+    }

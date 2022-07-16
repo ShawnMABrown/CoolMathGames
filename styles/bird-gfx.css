@@ -1,0 +1,50 @@
+#game{ 
+    width: 800px;
+    height: 450px;
+    background-image: url(../images/flappy-background.png);
+    background-size: 950px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+#character{
+    width: 50px;
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    user-select: none;
+}
+#flappy-logo{
+    position: absolute;
+    top: 280px;
+    left: 640px;
+    user-select: none;
+    animation: fade 2.5s;
+    opacity: 0;
+    animation-play-state: paused;
+}
+.pipes{
+    margin-top: -400px;
+    margin-left: -504px;
+    width: 500px;
+    height: 1200px;
+    background-color: transparent;
+    position: relative;
+    left: 1200px;
+    animation: pipes 4s infinite linear;
+    animation-play-state: paused;
+    user-select: none;
+}
+#pipes1{ margin-left: -737px; }
+#pipes2{ animation-delay: 1s; }
+#pipes3{ animation-delay: 2s; }
+#pipes4{ animation-delay: 3s; }
+
+@keyframes pipes{ /* animation */
+    0%{left:800px} /* start at 400px to the right*/
+    100%{left:-100px} /* end at -50px to the left left*/
+}
+
+@keyframes fade{
+    0%{opacity: 1;}
+    100%{opacity: 0;}
+}
